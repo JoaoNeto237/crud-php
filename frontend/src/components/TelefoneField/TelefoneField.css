@@ -1,0 +1,22 @@
+.telefone-field {
+  margin-bottom: 10px;
+}
+
+.telefone-field input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

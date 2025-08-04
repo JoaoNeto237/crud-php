@@ -1,0 +1,18 @@
+# Regras para frontend (React)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/npm-debug.log*
+
+# Regras para backend (PHP)
+backend/vendor/
+backend/config.local.php
+backend/.env.php
+backend/*.log
+backend/*.cache
+
+# Regras gerais
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
