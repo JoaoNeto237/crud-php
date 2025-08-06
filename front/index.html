@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Pessoas e Telefones</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Pessoas</h1>
+    <form id="formPessoa">
+      <h2>Dados Pessoais</h2>
+      <input type="text" name="nome" placeholder="Nome completo" required />
+      <input type="text" name="cpf" placeholder="CPF (somente números)" required pattern="\d{11}" />
+      <input type="text" name="rg" placeholder="RG" required />
+
+      <h2>Endereço</h2>
+      <input type="text" name="cep" placeholder="CEP" required />
+      <input type="text" name="logradouro" placeholder="Logradouro" required />
+      <input type="text" name="complemento" placeholder="Complemento" />
+      <input type="text" name="setor" placeholder="Setor" required />
+      <input type="text" name="cidade" placeholder="Cidade" required />
+      <input type="text" name="uf" placeholder="UF" maxlength="2" required />
+
+      <h2>Telefones</h2>
+      <div id="telefonesContainer">
+        <div class="telefone-group">
+          <input type="text" name="telefone[]" placeholder="Telefone" required />
+          <input type="text" name="descricao[]" placeholder="Descrição (ex: Celular)" required />
+          <button type="button" class="removeTelefoneBtn">X</button>
+        </div>
+      </div>
+      <button type="button" id="addTelefone">+ Adicionar Telefone</button>
+
+      <!-- Botão dinâmico -->
+      <button type="submit" id="submitBtn">Cadastrar Pessoa</button>
+    </form>
+
+    <h2>Lista de Pessoas</h2>
+    <div id="listaPessoas"></div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

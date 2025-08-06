@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "nome": "Maria Silva Pereira",
+        "cpf": "98568956985",
+        "rg": "7512268",
+        "cep": "74912-235",
+        "logradouro": "avenida das rosas",
+        "complemento": "rua 35",
+        "setor": "marista",
+        "cidade": "goiania",
+        "uf": "GO",
+        "telefones": [
+            {
+                "telefone": "62992861475",
+                "descricao": "trabalho"
+            }
+        ],
+        "id": "6893dd5090c69"
+    }
+]

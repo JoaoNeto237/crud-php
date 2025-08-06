@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #2d89ef;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b5fbd;
+}
+
+.telefone-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.removeTelefoneBtn {
+  width: 30px;
+  height: 30px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+.removeTelefoneBtn:hover {
+  background: #c0392b;
+}
+
+#listaPessoas {
+  margin-top: 20px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pessoa {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pessoa:last-child {
+  border-bottom: none;
+}
+
+.pessoa button {
+  width: auto;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+}
+
+.pessoa .editarPessoaBtn {
+  background: #27ae60;
+}
+
+.pessoa .editarPessoaBtn:hover {
+  background: #1e8449;
+}
+
+.pessoa .excluirPessoaBtn {
+  background: #e74c3c;
+}
+
+.pessoa .excluirPessoaBtn:hover {
+  background: #c0392b;
+}
